@@ -1,0 +1,403 @@
+/*aplicar reset a mi pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* estilos del index*/
+
+
+
+.bodyindex {
+
+    background-color: rgb(192, 243, 226);
+}
+
+body {
+
+    background-color: rgb(192, 243, 226);
+    padding: 10px;
+}
+
+.index__titulo {
+    background-color: rgb(24, 185, 150);
+    color: rgb(23, 22, 22);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenidouno {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center
+}
+
+img {
+    width: 100%;
+
+}
+
+.contenido {
+    margin-top: 10px;
+    padding: 50pxz;
+}
+
+
+
+
+
+/* estilo de menu de todos los html*/
+
+.menu__1 {
+    background-color: khaki;
+    color: olive;
+    width: 300px;
+    height: 30px;
+    margin: 30px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bolder;
+
+}
+
+
+
+/* estilos de parrafo  historia*/
+
+
+
+.his {
+    width: 150px;
+}
+
+.histo__titulo {
+    background-color: olive;
+    color: khaki;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+
+
+.parrafohis__uno {
+
+    color: rgb(21, 21, 18);
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.parrafohis__dos {
+
+    color: rgb(12, 12, 11);
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.parrafohis__vision {
+    background-color: rgb(24, 185, 150);
+    text-align: center;
+    color: rgb(34, 34, 31);
+    margin-top: 20px;
+    font-weight: bolder
+}
+
+.parrafohis__mision {
+    background-color: rgb(24, 185, 150);
+    text-align: center;
+    color: rgb(26, 26, 24);
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/*estilos de servicios*/
+
+
+.fondoservicios {
+    background-color: rgb(194, 194, 122);
+}
+
+.servi__titulo {
+    background-color: rgb(24, 185, 150);
+    color: rgb(194, 194, 122);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.servidos__box {
+    background-color: rgb(24, 185, 150);
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    padding: 30px 30px 30px 30px;
+    font-size: 30px;
+}
+
+.servidos__campo {
+    background-color: rgb(24, 185, 150);
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    padding: 30px 30px 30px 30px;
+    font-size: 30px;
+}
+
+.servidos__reha {
+    background-color: rgb(24, 185, 150);
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    padding: 30px 30px 30px 30px;
+    font-size: 30px;
+}
+
+
+
+/* estilo footer universal*/
+.pieuniversal__centro {
+    height: 75px;
+    background-color: rgb(24, 185, 150);
+    text-align: center;
+    color: black;
+
+
+
+
+
+}
+
+/* estilos para contacto*/
+
+
+.formu__1 {
+
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+    color: rgb(16, 16, 15);
+}
+
+.formu__2 {
+
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+    color: rgb(30, 146, 84);
+
+
+}
+
+.comentario {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(16, 15, 15);
+    text-size-adjust: 30px;
+
+}
+
+.redes__iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+
+}
+
+.redes__iconos img {
+    text-decoration: none;
+    font-size: 50px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    padding: 2px 2px;
+
+
+}
+
+.redes__iconos1:hover {
+
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8)
+}
+
+.redes__iconos1:hover {
+    color: rgb(222, 225, 220);
+    background-color: rgb(225, 234, 226);
+}
+
+
+
+.contact__titulo {
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-weight: bold;
+}
+
+.mapa {
+
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.mapa__tama {
+    text-align: center;
+    margin: 10px 30px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+.veni {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 30pxpx;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+/* estilos pagina  galeria*/
+
+.men {
+    background-color: rgb(24, 185, 150);
+    color: rgb(23, 22, 22);
+    width: 150px;
+    height: 30px;
+    margin: 30px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bolder;
+    text-decoration: overline;
+
+}
+
+.men:hover {
+    color: chartreuse;
+    background-color: rgb(62, 247, 77);
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: rgb(192, 243, 226);
+    font-family: Georgia;
+    color: rgb(23, 20, 20);
+}
+
+
+
+h1 {
+
+    font-size: 50px;
+    color: rgb(45, 34, 34);
+    text-align: center;
+}
+
+.gal {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+.persona__columna {
+    margin: 5px;
+}
+
+
+
+.personas .contenedor {
+
+    display: grid;
+
+}
+
+@media (min-width:550px) {
+
+    .personas .contenedor {
+
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+
+@media (min-width:728px) {
+    .personas .contendeor {
+
+        grid-template-columns: repeat(3, 33.3%);
+
+    }
+}
+
+@media (min-width:1024px) {
+    .personas .contenedor {
+
+        grid-template-columns: repeat(4, 25%);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/* estilo footer universal*/
+
+.pieuniversal__centro {
+    height: 75px;
+    background-color: black;
+    text-align: center;
+    color: rgb(204, 245, 218);
+    font-size: 30px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+
+
+}
