@@ -1,0 +1,76 @@
+/* estilos de parrafo  historia*/
+
+
+.index {
+    
+     
+        display: grid;
+        grid-template-columns: none;
+        background-color: $background-color;
+        padding: 10px;
+        margin: 20px;
+    }
+
+
+.parrafohis__uno {
+background-color: rgb(203, 238, 238);
+    color:nth($colores, 3);
+    padding: 30px 30px 30px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.parrafohis__dos {
+    background-color: rgb(203, 238, 238);;
+    color:nth($colores, 3);
+    @extend %parrafos-historia;
+}
+
+.parrafohis__vision {
+    background-color: rgb(14, 57, 56);
+    color: rgb(159, 218, 218);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia;
+    margin-top: 20px;
+   
+}
+
+.parrafohis__mision {
+    background-color: rgb(14, 57, 56);
+    color: rgb(159, 218, 218);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia;
+    margin-top: 20px;
+}
+
+
+@media (min-width:360px) {
+
+    .index {
+
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (min-width:720px) {
+    .index {
+
+        grid-template-columns: auto;
+
+    }
+}
+
+@media (min-width:1024px) {
+    .index {
+
+        grid-template-columns: auto;
+
+    }
+}

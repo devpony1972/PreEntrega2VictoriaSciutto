@@ -1,0 +1,44 @@
+/*estilos de servicios*/
+
+
+
+
+.serv {
+    background-color:rgb(101, 163, 149);
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    padding: 30px 30px 30px 30px;
+    font-size: 35px;
+    font-family: georgia;
+}
+.ser1{
+font-size: 25px;
+font-family: georgia;
+
+}
+
+
+@media (min-width:360px) {
+
+    .index {
+
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (min-width:720px) {
+    .index {
+
+        grid-template-columns: auto;
+
+    }
+}
+
+@media (min-width:1024px) {
+    .index {
+
+        grid-template-columns: auto;
+
+    }
+}

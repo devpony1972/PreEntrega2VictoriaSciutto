@@ -1,0 +1,68 @@
+/* estilos pagina  galeria*/
+
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+
+
+}
+
+img {
+
+    width: 100%;
+padding: 5px;
+}
+
+.persona__columna {
+    margin: 5px;
+    width:100%;
+}
+
+
+
+.personas .contenedor {
+
+    display: grid;
+
+}
+
+@media (min-width:550px) {
+
+    .personas .contenedor {
+
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+
+@media (min-width:728px) {
+    .personas .contendeor {
+
+        grid-template-columns: repeat(3, 33.3%);
+
+    }
+}
+
+@media (min-width:1024px) {
+    .personas .contenedor {
+
+        grid-template-columns: repeat(4, 25%);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

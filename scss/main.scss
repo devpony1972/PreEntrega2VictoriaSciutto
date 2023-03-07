@@ -1,0 +1,34 @@
+
+/*importando basicos*/
+
+@import "./base/reset";
+@import "./base/footer";
+@import "./base/mediaqueris";
+@import "./base/extend";
+@import "./base/mixin";
+
+/* importando componentes */
+
+
+@import "./componentes/variables";
+@import "./componentes/lista.scss";
+@import "./componentes/mapas";
+
+/*llamando estilos de cada page*/
+
+@import "./page/index";
+@import "./page/servicios";
+@import "./page/historia";
+@import "./page/galeria";
+@import "./page/contacto";
+
+
+
+
+
+
+
+
+
+
+

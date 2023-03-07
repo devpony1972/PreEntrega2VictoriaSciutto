@@ -1,0 +1,28 @@
+
+/* media queris para todas las html exepto galeria*/
+
+
+@media (min-width:360px) {
+
+    .index {
+
+        grid-template-columns: auto;
+    }
+}
+
+
+@media (min-width:720px) {
+    .index {
+
+        grid-template-columns: auto;
+
+    }
+}
+
+@media (min-width:1024px) {
+    .index {
+
+        grid-template-columns: auto;
+
+    }
+}
